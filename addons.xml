@@ -5,11 +5,9 @@
         <import addon="xbmc.addon" version="12.0.0" />
     </requires>
     <extension point="xbmc.addon.repository" name="Seedr Kodi Repository">
-   <info compressed="false">https://raw.githubusercontent.com/jose987654/repository.seedr/main/addons.xml</info>
+        <info compressed="false">https://raw.githubusercontent.com/jose987654/repository.seedr/main/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/jose987654/repository.seedr/main/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/jose987654/repository.seedr/main/</datadir>
-
-        
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Seedr Kodi Repository</summary>
@@ -50,3 +48,4 @@
     </extension>
 </addon>
 </addons> 
+
