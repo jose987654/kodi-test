@@ -1,112 +1,38 @@
-# Seedr Kodi Addon
+# Seedr Torrent Cloud - Kodi Video Plugin
 
-A Kodi addon that allows you to access and stream your Seedr.cc cloud storage content directly through Kodi.
-
-## What is Kodi?
-
-Kodi is a free and open-source media player software application developed by the XBMC Foundation. It's a powerful entertainment hub that allows you to:
-
-- Play and view most videos, music, podcasts, and other digital media files
-- Organize and manage your media library
-- Stream content from the internet
-- Customize your experience with addons and skins
-- Run on multiple platforms including Windows, macOS, Linux, Android, and iOS
-
-Kodi is particularly popular among home theater enthusiasts and cord-cutters as it provides a unified interface for accessing various media sources, including local storage, network drives, and online services like Seedr.cc.
+Seedr Torrent Cloud is a Kodi addon that allows you to stream torrents directly from your Seedr.cc cloud storage to Kodi.
 
 ## Features
 
-- Browse your Seedr.cc cloud storage folders and files
-- Stream video and audio content directly in Kodi
-- Automatic authentication with Seedr.cc
-- Support for video thumbnails and metadata
-- Folder navigation with context menu options
-
-## Requirements
-
-- Kodi media center
-- Seedr.cc account
-- Internet connection
+- Access your Seedr.cc cloud storage directly from Kodi
+- Stream video and audio content without downloading
+- Easy to use interface
+- Support for multiple media formats
 
 ## Installation
 
-1. Download the addon zip file
-2. In Kodi, go to Add-ons > Install from zip file
-3. Select the downloaded zip file
-4. The addon will be installed and available in your Kodi addons
-
-## First-time Setup
-
-1. Launch the addon from Kodi
-2. You will be presented with a verification URL and code
-3. Visit the provided URL in your web browser
-4. Enter the verification code
-5. The addon will automatically complete the authentication process
+1. Install the [Seedr Kodi Repository](https://jose987654.github.io/repository.seedr/repository.seedr-1.0.0.zip)
+2. Go to Add-ons > Add-on browser > Install from repository
+3. Select "Seedr Kodi Repository" > Video add-ons
+4. Select "Seedr Torrent Cloud" and click Install
 
 ## Usage
 
-- Navigate through your Seedr.cc folders using the Kodi interface
-- Video files will be automatically playable
-- Audio files will be available for streaming
-- Use the context menu to refresh the current view or go back to parent directory
+1. Launch the addon from the Video Add-ons section
+2. Login with your Seedr.cc account credentials
+3. Navigate through your cloud storage folders
+4. Select a file to stream
 
-## Technical Details
+## Requirements
 
-The addon uses the Seedr.cc API to:
-
-- Authenticate users through device code flow
-- List folders and files
-- Stream media content
-- Display thumbnails and metadata
-
-## Development Dependencies
-
-- Python 2.7 or 3.x
-- Kodi addon development environment with Python API (`xbmc`, `xbmcaddon`, `xbmcgui`, `xbmcplugin`)
-- `script.module.routing` (Kodi addon dependency)
-
-## Development Setup
-
-### Installing Kodi for Development
-
-1. Download and install Kodi from [kodi.tv/download](https://kodi.tv/download)
-2. For Windows:
-   - Default installation path: `C:\Program Files\Kodi`
-   - Python libraries are located at: `C:\Program Files\Kodi\system\python`
-3. For Linux:
-   - Install via package manager: `sudo apt install kodi`
-   - Python libraries are typically at: `/usr/lib/x86_64-linux-gnu/kodi/system/python`
-
-### Setting Up Python Path
-
-1. Add Kodi's Python libraries to your Python path:
-
-   ```bash
-   # Windows (PowerShell)
-   $env:PYTHONPATH += ";C:\Program Files\Kodi\system\python"
-
-   # Linux
-   export PYTHONPATH=$PYTHONPATH:/usr/lib/x86_64-linux-gnu/kodi/system/python
-   ```
-
-2. Verify the setup by running Python and trying to import Kodi modules:
-   ```python
-   import xbmcplugin
-   import xbmcgui
-   ```
-
-### Installing Required Addons
-
-1. Install `script.module.routing`:
-   - In Kodi, go to Add-ons > Install from repository
-   - Select Kodi Add-on repository
-   - Go to Program add-ons
-   - Find and install `script.module.routing`
-
-## Support
-
-For issues or questions, please check the project's issue tracker or contact the maintainers.
+- Kodi 19 Matrix or newer
+- A Seedr.cc account
+- Internet connection
 
 ## License
 
-[Add license information here]
+GPL-3.0
+
+## Support
+
+For support, visit: https://www.seedr.cc/

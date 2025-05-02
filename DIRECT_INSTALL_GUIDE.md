@@ -1,8 +1,8 @@
-# Installing Seedr Add-on Directly from GitHub URL
+# Installing Seedr Add-on Directly from GitHub Pages
 
-This guide will walk you through adding the GitHub repository as a source in Kodi and installing the Seedr add-on directly.
+This guide will walk you through adding the GitHub Pages repository as a source in Kodi and installing the Seedr add-on directly.
 
-## Method 1: Add GitHub as a File Source
+## Method 1: Add GitHub Pages as a File Source
 
 1. Open Kodi
 2. Go to Settings (gear icon)
@@ -10,7 +10,7 @@ This guide will walk you through adding the GitHub repository as a source in Kod
 4. Select "Add source"
 5. Click on "<None>" and enter this URL:
    ```
-   https://raw.githubusercontent.com/jose987654/repository.seedr/main/
+   https://jose987654.github.io/repository.seedr/
    ```
 6. Enter a name for the source (e.g., "Seedr Repo") in the box below
 7. Click "OK"
@@ -19,13 +19,14 @@ This guide will walk you through adding the GitHub repository as a source in Kod
 10. Click the box icon (Add-on browser) at the top left
 11. Select "Install from zip file"
 12. Select the source you just added ("Seedr Repo")
-13. Select "repository.seedr-1.0.0.zip"
-14. Wait for the "Seedr Kodi Repository add-on installed" notification
-15. Select "Install from repository"
-16. Select "Seedr Kodi Repository"
-17. Select "Video add-ons"
-18. Select "Seedr Torrent Cloud"
-19. Click "Install"
+13. Navigate to "repository.seedr" folder
+14. Select "repository.seedr-1.0.0.zip"
+15. Wait for the "Seedr Kodi Repository add-on installed" notification
+16. Select "Install from repository"
+17. Select "Seedr Kodi Repository"
+18. Select "Video add-ons"
+19. Select "Seedr Torrent Cloud"
+20. Click "Install"
 
 ## Method 2: Direct ZIP File Installation
 
@@ -34,7 +35,7 @@ If you're having trouble with the above method, you can install directly from th
 1. Open a web browser on your computer or device
 2. Go to this URL:
    ```
-   https://raw.githubusercontent.com/jose987654/repository.seedr/main/repository.seedr-1.0.0.zip
+   https://jose987654.github.io/repository.seedr/repository.seedr/repository.seedr-1.0.0.zip
    ```
 3. Download the ZIP file
 4. In Kodi, go to "Add-ons"
@@ -55,7 +56,7 @@ If you only want the plugin without the repository (no automatic updates):
 
 1. Download the plugin ZIP file directly:
    ```
-   https://raw.githubusercontent.com/jose987654/repository.seedr/main/plugin.video.seedr-0.5.0.zip
+   https://jose987654.github.io/repository.seedr/plugin.video.seedr/plugin.video.seedr-0.5.0.zip
    ```
 2. In Kodi, go to "Add-ons"
 3. Click the box icon (Add-on browser) at the top left
@@ -68,5 +69,5 @@ If you only want the plugin without the repository (no automatic updates):
 
 - Make sure "Unknown sources" is enabled in Settings > System > Add-ons
 - If you get a "Failed to install a dependency" error, go to Settings > System > Add-ons > Updates and set to "Install updates automatically"
-- If you can't connect to the GitHub URL, check your internet connection
-- Some ISPs block GitHub, so you might need a VPN in some regions
+- If you can't connect to the GitHub Pages URL, check your internet connection
+- Some ISPs might block GitHub Pages, so you might need a VPN in some regions

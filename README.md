@@ -1,48 +1,23 @@
 # Seedr Kodi Repository
 
-This repository contains the Seedr Torrent Cloud add-on for Kodi, allowing you to stream torrents from your Seedr.cc cloud storage.
+<pre>
+<img src="icons/folder.gif" alt="[DIR]" > <a href="./">./</a> 
+<img src="icons/folder.gif" alt="[DIR]" > <a href="repository.seedr/">repository.seedr/</a> 
+<img src="icons/folder.gif" alt="[DIR]" > <a href="plugin.video.seedr/">plugin.video.seedr/</a> 
+</pre>
 
-## Repository Structure
+## Installation as Source in Kodi
 
-This repository is hosted on GitHub at:
-https://github.com/jose987654/repository.seedr
-
-The following files are included:
-
-- `addons.xml` - Contains metadata for all add-ons in the repository
-- `addons.xml.md5` - MD5 checksum of the addons.xml file
-- `repository.seedr/` - Directory containing the repository addon
-- `plugin.video.seedr/` - Directory containing the Seedr video addon
-- `repository.seedr-1.0.0.zip` - Zip file of the repository addon for installation
-- `plugin.video.seedr-0.5.0.zip` - Zip file of the Seedr video addon
-
-## Installation Instructions
-
-1. Download the [repository zip file](https://raw.githubusercontent.com/jose987654/repository.seedr/main/repository.seedr-1.0.0.zip)
-2. In Kodi, navigate to Add-ons > Add-on browser (box icon) > Install from zip file
-3. Select the downloaded zip file
-4. Once the repository is installed, go to Add-ons > Add-on browser > Install from repository
-5. Select "Seedr Kodi Repository" > Video add-ons > Seedr Torrent Cloud > Install
-
-## Alternative Method: Add Source URL
-
-1. In Kodi, go to Settings > File manager
-2. Select "Add source"
-3. Enter this URL: `https://raw.githubusercontent.com/jose987654/repository.seedr/main/`
-4. Give it a name like "Seedr Repo"
-5. Go to Add-ons > Add-on browser > Install from zip file
-6. Select the source you added
-7. Select repository.seedr-1.0.0.zip to install the repository
-
-## Available Add-ons
-
-- **Seedr Torrent Cloud** - Stream torrents from your Seedr.cc cloud storage directly to Kodi
-
-## Requirements
-
-- Kodi 19 Matrix or newer
-- A Seedr.cc account
-
-## License
-
-GPL-3.0
+1. Navigate to the **System** menu and click on **File Manager**
+2. Select **Add source**
+3. Click on **None** and add the path **https://jose987654.github.io/repository.seedr/**
+4. Enter a name for this media source - "Seedr Kodi Repo"
+5. Click **OK** to save your changes
+6. Press Esc to exit **File Manager** and open **Add-ons** menu
+7. Click **Install from zip file** and then select "Seedr Kodi Repo"
+8. Navigate to the **repository.seedr** folder
+9. Click on **repository.seedr-1.0.0.zip** to install
+10. Once installed, go to **Install from repository**
+11. Select **Seedr Kodi Repository**
+12. Select **Video add-ons**
+13. Find and install **Seedr Torrent Cloud**
