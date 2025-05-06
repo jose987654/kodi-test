@@ -3,7 +3,7 @@
 <pre>
 <img src="icons/folder.gif" alt="[DIR]" > <a href="./">./</a> 
 <img src="icons/folder.gif" alt="[DIR]" > <a href="repository.seedr/">repository.seedr/</a> 
-<img src="icons/folder.gif" alt="[DIR]" > <a href="plugin.video.seedr/">plugin.video.seedr/</a> 
+<!-- <img src="icons/folder.gif" alt="[DIR]" > <a href="plugin.video.seedr/">plugin.video.seedr/</a>  -->
 </pre>
 
 ## Installation as Source in Kodi
